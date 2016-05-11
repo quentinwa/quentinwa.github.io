@@ -10,4 +10,9 @@
 	background-color:red;
 }
 
-*{}
+@media screen and (min-width: 200px) and (max-width: 640px){
+	img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
