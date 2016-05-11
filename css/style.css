@@ -10,7 +10,16 @@
 	background-color:red;
 }
 
-@media screen and (min-width: 200px) and (max-width: 640px){
+@media screen and (max-width: 640px){
+
+	img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+   		max-width: 100%;
+	}
+
+	p{
+    	display:none;
+    }
+
 	.bonjour{
 		display:block;
 		margin-left: auto;
