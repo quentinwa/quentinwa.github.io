@@ -10,14 +10,9 @@
 	background-color:red;
 }
 
-.bonjour{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-@media handeld and (min-width: 200px) and (max-width: 640px){
+@media screen and (min-width: 200px) and (max-width: 640px){
 	.bonjour{
+		display:block;
 		margin-left: auto;
 		margin-right: auto;
 	}
